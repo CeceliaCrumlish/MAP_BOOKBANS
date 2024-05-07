@@ -40,6 +40,25 @@ Banning one title in one District can mean that Hundreds of that title are pulle
 ## Methods and Results 
  to be posted soon once review is done 
 
-
 ## The Repository 
 
+For this exporatory analysis I used two different datasources and cleaned them: 
+1. PEN Index of banned books datasets 2021-22 and 2022-23.
+2. Dr. Magnusson's Dataset of banned books from the EveryLibrary advocacy group.
+
+The respective folders **PEN** and **Magnusson** contain the data scripts and cleaned data used for the analysis in the report and the maps. 
+
+
+---
+
+Data Sources Table 
+
+| Data Source Name | Source authors | Data Source Link | Data format (Polygon, Vector, Point) | Description |
+| --- | --- | --- | --- | --- |
+| 2023 Censorship Attacks Book Bans In America | Dr. Tasslyn Magnusson | https://docs.google.com/spreadsheets/d/1am1vKU3MR1209AanJVqySFtRYe3IiB1k/edit#gid=2126860040 | XLSM table | A larger less-structured report of book bans from 2021-2024.   |
+| PEN Index of Banned Books Dataset 2022-23 | PEN | https://docs.google.com/spreadsheets/d/1a6v7R7pidO7TIwRZTIh9T6c0--QNNVufcUUrDcz2GJM/edit#gid=982757372 |  | Semi large structured data report of book bans in the U.S. from 2022 to 2023.  |
+| PEN Index of Banned books Dataset 2021-22 | PEN  | https://docs.google.com/spreadsheets/d/1hTs_PB7KuTMBtNMESFEGuK-0abzhNxVv4tgpI5-iKe8/edit#gid=1171606318 | google spreadsheet, .xlsm file | Semi large structured data report of book bans in the U.S. from 2021 to 2022. |
+| School Counties List for Florida | US census | sdlist.xlsm | XLSM table | A list of all school counties and FIP, information for the State of Florida. |
+| Florida School Districts | US Census | https://docs.google.com/document/d/1upZfCIZZ4XDm52jHbqvEVB9q5kFeNrAMoE-Bs9FN-Hg/edit | .SHP File | Shape file for Florida’s school districts.  |
+| Financial Demographics for Medium Income | US Census ACS | https://data.census.gov/table/ACSST1Y2022.S2503?q=acs%20income&g=010XX00US$0400000 | .xlsm file | To join with state information for bivariate map. |
+| SAIPE (Small Area Income and Poverty Estimates) Projection for 2022 | US Census SAIPE | https://www.census.gov/data/datasets/2022/demo/saipe/2022-school-districts.html | .xlsm file  | Provides the total population of students in a given county and the total living in poverty in that county, used to get percentage portion of students in poverty ages 5-17.  |
