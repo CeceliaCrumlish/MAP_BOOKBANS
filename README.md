@@ -1,9 +1,14 @@
 ## Plotting the Plot Twists 
 
-Each respective folder is a seperate Book Bans Data base and cleaning script 
-each folder contains: 
+This Repo Contains: 
 
-1. cleaned data: data that is the result of the cleaning and summarizing scripts
-2. data: the original table of bans
-3. A juypter notebook: contains seperate scripts and Markdown information, about how they are run
+1. The final HTML report
+
+1. Two folders for one for each of the Book Bans Data bases. Each contain:
+
+  * cleaned data: data that is the result of the cleaning and summarizing scripts
+  *  data: the original table of bans
+  * A juypter notebook: contains seperate scripts and Markdown information, about how they are run
+
+
 
